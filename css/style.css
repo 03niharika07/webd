@@ -1,0 +1,311 @@
+/*CSS LEVEL-1*/
+
+/*Color and background property,color system*/
+/* h1{
+    color:#ff0000;
+}
+
+p{
+    color:#ff00ff;
+}
+
+button{
+    color:blue;
+    background-color:#00ffff ;
+}
+
+body{
+    background-color:#ffff00 ;
+} */
+
+/*Universal Selector*/
+/*
+*{
+    color:yellow;
+    background-color: red;
+}
+*/
+
+/*Id Selector*/
+/* #id01{
+    color:red;
+}
+#id02{
+    color:blue;
+}
+#id03{
+    background-color:aqua
+} */
+
+/*Class Selector*/
+/* .Class{
+    color:blue;
+} */
+
+/*Practice ques1*/
+/* #box{
+    background-color:aqua
+} */
+
+/*Practice ques2*/
+/* .heading{
+    color:red; 
+} */
+/* h1,h2,h3{
+    color:red;
+} */
+
+/*Practice ques3*/
+/* button{
+    background-color: green;
+} */
+
+/*Text related properties - text align and text decoration*/
+/* h1{
+    text-align:center;
+    text-decoration:underline;
+}
+p{
+    text-align:end;
+    text-decoration:line-through;    
+}
+a{
+    text-decoration:none; 
+}
+h2{
+    text-decoration: red underline;
+}
+h3{
+    text-decoration: blue wavy underline;
+}
+
+ */
+
+/*Text realted properties - font weight and font family*/
+/* #heading1{
+    font-weight:normal;
+}
+#heading2{
+    font-weight:lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+p{
+    font-family:cursive;
+} */
+
+/*Font-size*/
+/* #para1{
+    font-size: 30px;
+}
+#para2{
+    font-size: 16px;
+}
+#para3{
+    font-size: 10px;
+} */
+
+/*Text realted properties- line height and text transform*/
+/* p{
+    line-height:30px;
+    text-transform:uppercase;
+} */
+
+/*Practice ques4*/
+/* h1{
+    text-transform:capitalize;
+    text-align:center;
+} */
+
+/*Practice ques5*/
+/* *{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/*Practice ques6*/
+/* #outer{
+    font-size:25px;
+}
+
+#inner{
+    font-size:10px;
+} */
+
+
+
+/*CSS LEVEL-2*/
+
+/* div{
+    height:100px;
+    background-color:lightblue;
+    width:100px;
+    border-width:5px;
+    border-style:solid;
+    border-color:darkblue;
+    text-align:right;
+}
+
+h1{
+    height:250px;
+    width:250px;
+    background-color:red;
+    border:15px dashed black;
+    text-align:center;
+} */
+
+/*border-radius*/
+/* div{
+    height:150px;
+    width:150px;
+    background-color:aqua;
+    text-align: center;
+    text-transform:capitalize;
+    border:8px solid darkblue;
+    border-radius:20px;
+} */
+
+/*border-radius for circle*/
+/* div{
+    height:150px;
+    width:150px;
+    background-color:aqua;
+    text-align: center;
+    text-transform:capitalize;
+    border:8px solid darkblue;
+    border-radius:50%;
+} */
+
+/*Padding*/
+/* #box1{
+    height:150px;
+    width:150px;
+    background-color:aqua;
+    text-align: left;
+    text-transform:capitalize;
+    border:8px solid darkblue;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+#box2{
+    height:150px;
+    width:150px;
+    background-color:aqua;
+    text-align: left;
+    text-transform:capitalize;
+    border:8px solid darkblue;
+    padding:20px 10px 20px 10px;
+} 
+#box3{
+    height:150px;
+    width:150px;
+    background-color:aqua;
+    text-align: left;
+    text-transform:capitalize;
+    border:8px solid darkblue;
+    padding:10px 20px 30px 40px;
+}  */
+
+/*Margin*/
+/* div{
+    height:100px;
+    background-color:lightblue;
+    width:100px;
+    border-width:5px;
+    border-style:solid;
+    border-color:darkblue;
+    text-align:left;
+    padding: 1px 2px 3px 4px;
+    margin-top:50px;
+} */
+
+/*Practice Ques1*/
+/* div{
+    height:100px;
+    width:100px;
+    background-color:green;
+    border-radius: 50%;
+} */
+
+/*PPractice Ques2: HW Ques - Traffic Signal*/
+/* h2{
+    height:30px;
+    width:200px;
+    background-color:aliceblue;
+    margin-left:70px;
+}
+#rectangle{
+    height:300px;
+    width:100px;
+    background-color:black;
+    padding-left:15px;
+    padding-top:20px;
+    border-radius:20px;
+    border: 5px solid grey;
+    margin-left:100px;  
+}
+
+#circle1{
+    height:80px;
+    width:80px;
+    background-color:red;
+    border-radius:50%;
+}
+
+#circle2{
+    height:80px;
+    width:80px;
+    background-color:rgb(244, 244, 28);
+    border-radius:50%;
+}
+
+#circle3{
+    height:80px;
+    width:80px;
+    background-color: rgb(63, 228, 63);
+    border-radius:50%;
+}
+
+#smallrec{
+    height:130px;
+    width:40px;
+    background-color:black;
+    margin-left:135px;
+    border: 5px solid grey;
+} */
+
+/*Practice Ques3*:Navigation bar of amazon*/
+/* *{
+    padding:0;
+    margin:0;
+    color:white;
+}
+
+#navbar{
+    height:60px;
+    background-color:#0f1111;
+}
+
+#logo{
+    color:#f08804;
+    font-size:25px;
+}
+    
+button{
+    background-color:#f08804;
+}
+
+a{
+    margin-right:200px;
+    text-decoration:none;
+} */
+
+/*Display Property*/
+div{
+    background-color:aqua;
+    display:inline;
+}
+
+button{
+    display:block;
+}
