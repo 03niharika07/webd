@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--this is my first html program-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML PRACTICE</title>
+</head>
+<body>
+    <h1>HELLO WORLD!</h1>
+    <h2>HELLO WORLD!</h2>
+    <H3>HELLO WORLD!</H3>
+    <H4>HELLO WORLD!</H4>
+    <H5>HELLO WORLD!</H5>
+    <H6>HELLO WORLD!</H6>
+    <hr>
+    <P>sample paragraph 
+        sample paragraph sample paragraph sample paragraph</P>
+    <hr>
+
+    <!--Anchor tag-->
+
+    <!--This is an absolute url-->
+    <a href="https://www.google.com">google</a>
+    <br>
+    <a href="https://www.youtube.com/">youtube</a>
+    <br>
+    <!--This is relative url-->
+    <a href="/html/Hello/Hello.html">print hello</a>
+    <br>
+    <a href="/html/notes.html">html notes</a>
+    <hr>
+
+    <!--Image tag-->
+
+    <!--This is absolute url (of another website)-->
+    <img src="https://tiimg.TIstatic.com/fp/3/008/030/glossy-cover-rectangular-plain-paper-writing-spiral-binding-notebook-for-office-use-183.jpg"alt="notebook" height="100">
+    <!--This is relative url (from own webpage or file)-->
+    <img src="/html/Hello/"alt=notebook width="50">
+    <hr>
+
+    <!--Use of Bold,italic,underline tags-->
+
+    <b>BOLD</b>
+    <br>
+    <i>ITALIC</i>
+    <br>
+    <u>UNDERLINE</u>
+    <br>
+    <hr>
+
+    <!--Big and small tags-->
+    <!--Hr tag-->
+
+    <big>This tag shows big text</big>
+    <hr>
+    <small>This tag shows small text</small>
+    <hr>
+
+    <!--Subscript and supercript tags-->
+
+    <p>H<sub>2</sub>O</p>
+    <p>a<sup>2</sup>+ b<sup>2</sup>+2ab = (a+b)<sup>2</sup></p>
+    <p>A<sup>n</sup>+ B<sup>n</sup></p>
+    <hr>
+
+    <!--Pre tag-->
+    
+    <pre>Lorem ipsum dolor,sit amet consectetur adipisicing elit.
+         Placeat deleniti sit, 
+         sed enim non explicabo harum fuga officiis
+          ratione amet minima consequatur repellat voluptas
+           expedita! Facilis dolorem vero ex quam.</pre>
+
+ <hr>
+    <!--SEMANTIC TAGS
+        Header,main,footer tags-->
+
+    <body>
+        <header>
+            <H3>MY PORTFOLIO:</H3>
+        </header>
+        <main>
+           <section>EDUCATION:</section>
+           <section>EXPERIENCES:</section>
+           <article>My story:</article>
+           <aside>this is an add</aside>
+        </main>
+        <footer>
+            <h5>Contact me at hello@ac.com</h5>
+        </footer>
+    </body>
+<hr>
+
+    <!--Revisiting anchor tag-->
+    <a href="https://www.google.com">Google</a>  <!--opens google in the same tab-->
+
+    <br>
+    <a href="https://www.google.com"target="_main">Google</a>  <!--Opens google in new tab-->
+
+    <br>
+    <a href="https://www.google.com"><img src="https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg" height="50"></a>
+    <!--make pictures clickable,don not open new tab-->
+
+    <br>
+    <a href="https://www.google.com"target="_main"><img src="https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg" height="50"></a>
+    <!--makes picture clickable, and open the website in new tab-->
+    <hr>
+
+    <!--NON-SEMANTIC TAGS:
+        div,span-->
+
+    <div>
+        <p>HELLO WORLD</p>
+    </div>
+    
+    <div>
+        <p>Hello</p>
+        <p>Namaste</p>
+        <p>Hi</p>
+    </div>
+
+    <div>
+        <p>Bye</p>
+        <p>Goodbye</p>
+        <p>Ciao</p>
+    </div>
+
+    <hr>
+
+    <span>
+        <p>HELLO WORLD</p>
+    </span>
+    
+    <span>
+        <p>Hello</p>
+        <p>Namaste</p>
+        <p>Hi</p>
+    </span>
+
+    <span>
+        <p>Bye</p>
+        <p>Goodbye</p>
+        <p>Ciao</p>
+    </span>
+    <hr>
+
+    <!--LISTS IN HTML-
+        UNORDERED AND ORDERED LIST -->
+
+        <ul>
+            <li>Apple</li>
+            <ul>
+                <li>colour: red</li>
+                <li>season: winters</li>
+            </ul>
+            <li>Mango</li>
+            <ul>
+                <li>colour: yellow</li>
+                <li>season: summers</li>
+            </ul>
+        </ul>
+
+        <ol>
+            <li>apple</li>
+            <ol>
+                <li>colour: red</li>
+                <li>season: winters</li>
+            </ol>
+            <li>mango</li>
+        </ol>
+    <hr>
+
+    <!--TABLES IN HTML-->
+    
+    <table>
+        <thead>
+        <caption>STUDENT DATA</caption> <!--Captions in tables-->
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Niharika</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Neha</td>
+            <td>20</td>
+        </tr>
+        </tbody>
+    </table> 
+
+    <br>
+
+    <table>
+        <thead > 
+            <tr>
+                <th colspan="2">
+                    INFORMATION
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Niharika</td>
+                <td>2005</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!--FORMS IN HTML-->
+    <!--Form Element-Input-->
+    <form action="/action.php"> <!--File in backend-->
+       <input type="text" placeholder="Userame"> 
+       <br>
+       <br>
+       <input type="password" placeholder="Password">
+    </form>
+
+    <hr>
+    
+    <!--Form Element- Label-->
+    <form>
+        <label for id="id101">
+            <input type="radio" value="class XI" name="class" id="id101">Class XI
+        </label>
+        <label for id="102">
+            <input type="radio" value="class XI" name="class" id="id102">Class XII
+        </label>
+
+    <hr>
+ 
+    <!--Class and id-->
+    <div id="id1" class="group1">
+    </div>
+
+    <div id="id2" class="group1">
+    </div>
+
+    <!--checkboxes-->
+    <form>
+    <h4>SELECT YOUR SUBJECT</h4>
+    <label for="math">
+        <input type="checkbox" value="math" name="subject" id="id1">math
+    </label>
+    <br>
+    <label for="physics">
+        <input type="checkbox" value="physics" name="subject" id="id2">physics
+    </label>
+    <br>
+    <label for="chemistry">
+        <input type="checkbox" value="chemistry" name="subject" id="id3">chemistry
+    </label>
+    </form>
+    <hr>
+
+    <!--Textarea-->
+    <textarea name="feedback" id="id1" placeholder="please give your valuable feedback here" rows="5">Feedback</textarea>
+    <br>
+    <hr>
+
+    <!--Select - for dropdowns-->
+    <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bnagalore</option>
+        <option value="Mumbai">Mumbai</option>
+    </select>
+    <br>
+    <hr>
+
+    <!--To add submit button-->
+    <input type="submit" value="submit">
+    </form>
+
+    <hr>
+
+    <!--iframe tag-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VTLCoHnyACE?si=cuhkh8-mas71Dd0G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+
+    <!--Video tag-->
+    <video width="560" height="315" src="/my video.mp4" controls>My video</video>
+</body>
+</html>

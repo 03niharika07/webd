@@ -130,6 +130,8 @@ p{
     font-size:10px;
 } */
 
+
+
 /*CSS LEVEL-2*/
 
 /* div{
@@ -299,11 +301,11 @@ a{
 } */
 
 /*Display Property*/
-div {
-  background-color: aqua;
-  display: inline;
+div{
+    background-color:aqua;
+    display:inline;
 }
 
-button {
-  display: block;
+button{
+    display:block;
 }
